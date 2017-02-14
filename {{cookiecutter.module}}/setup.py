@@ -8,5 +8,5 @@ pytest_runner = ['pytest-runner'] if needs_pytest else []
 setup(name="{{cookiecutter.module}}",
       version="0.0.1",
       setup_requires=['pytest-runner'],
-      tests_require=['pytest'],
+      tests_require=['pytest', 'pytest-cov'],
       packages=['{{cookiecutter.module}}'])
