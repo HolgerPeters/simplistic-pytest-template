@@ -1,5 +1,5 @@
 
-import mymodule
+import {{cookiecutter.module}}
 
 def test_mymodule_has_version_defined():
-    assert mymodule is not None
+    assert {{cookiecutter.module}} is not None
